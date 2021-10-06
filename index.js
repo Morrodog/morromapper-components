@@ -6,9 +6,8 @@ import MMMap        from '/src/components/mm-map.vue'
 
 import 'font-awesome/css/font-awesome.min.css'
 
-export MMMap
-export MMMDialog
-export MMPopup
-export MMPopup
-export MMBlob
-export MMCellpicker
+export const MMCellpicker = MMCellpicker;
+export const MMDialog = MMDialog;
+export const MMPopup = MMPopup;
+export const MMBlob = MMBlob;
+export const MMMap = MMMap;
