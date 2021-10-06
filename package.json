@@ -2,18 +2,31 @@
   "name": "morromapper-components",
   "version": "1.0.0",
   "description": "Component library for mapping Morrowind mods",
-  "main": "index.js",
+  "main": "./index.ts",
+  "files": [
+    "src/**"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "author": "Josh Randall",
   "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.5",
+    "path": "0.12.7",
+    "typescript": "^4.1.3",
+    "vite": "^2.3.4",
+    "vue-tsc": "^0.0.24"
+  },
   "dependencies": {
     "@turf/union": "6.5.0",
-    "@vue/compiler-sfc": "3.2.19",
+    "font-awesome": "4.7.0",
     "leaflet": "1.7.1",
     "leaflet-dialog": "1.0.5",
-    "leaflet.fullscreen": "2.0.0",
+    "leaflet.fullscreen": "https://github.com/Morrodog/leaflet.fullscreen",
     "morromapper-logic": "https://github.com/Morrodog/morromapper-logic",
     "mount-vue-component": "0.10.1",
     "uuid": "8.3.2",

@@ -20,7 +20,7 @@
   import 'leaflet-dialog'
   import 'leaflet-dialog/Leaflet.Dialog.css'
 
-  import renderVNodes from './src/utils/render-vnodes.ts'
+  import renderVNodes from '/src/utils/render-vnodes.ts'
 
   import { v4 } from 'uuid'
 
