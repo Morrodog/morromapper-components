@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "@turf/union": "6.5.0",
+    "@vue/compiler-sfc": "3.2.19",
     "leaflet": "1.7.1",
     "leaflet-dialog": "1.0.5",
     "leaflet.fullscreen": "2.0.0",
