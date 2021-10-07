@@ -2,7 +2,7 @@
  * Given an array of vnodes, returns an `HTMLElement` for a `div` that contains
  * the vnodes rendered.
  */
-import { defineComponent, createApp, h } from 'vue'
+import { defineComponent, h } from 'vue'
 import { mount } from 'mount-vue-component'
 
 /*

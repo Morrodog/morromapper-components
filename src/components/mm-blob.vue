@@ -13,8 +13,8 @@
 
   import { CellXY } from 'morromapper-logic'
   
-  import blobBoundaryFromCells from '/src/utils/blob-boundary-from-cells.ts'
-  import renderVNodes          from '/src/utils/render-vnodes.ts'
+  import blobBoundaryFromCells from '../utils/blob-boundary-from-cells.ts'
+  import renderVNodes          from '../utils/render-vnodes.ts'
 
   import { v4 } from 'uuid'
 

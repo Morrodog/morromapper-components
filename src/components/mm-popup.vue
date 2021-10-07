@@ -6,7 +6,7 @@
 <script>
   import { defineComponent, h, inject, toRefs, watch, onBeforeUnmount, onMounted } from 'vue'
 
-  import renderVNodes from '/src/utils/render-vnodes.ts'
+  import renderVNodes from '../utils/render-vnodes.ts'
 
   import { CellXY, BACKGROUNDMAP_BOUND_LENGTH } from 'morromapper-logic'
   

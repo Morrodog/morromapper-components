@@ -1,6 +1,6 @@
 import { Bounds, LatLng, LatLngBounds, Util, DomUtil, Layer } from 'leaflet';
 
-import HOVER_CELL_COLOR from '/src/constants/hover-cell-color.ts'
+import HOVER_CELL_COLOR from '../constants/hover-cell-color.ts'
 
 import { CellXY, BACKGROUNDMAP_BOUND_LENGTH, RasterBackgroundmapMetadata } from 'morromapper-logic'
 

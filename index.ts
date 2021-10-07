@@ -1,4 +1,5 @@
 import 'font-awesome/css/font-awesome.min.css'
+import 'leaflet/dist/leaflet.css'
 
 export { default as MMCellpicker } from './src/components/mm-cellpicker.vue'
 export { default as MMDialog }     from './src/components/mm-dialog.vue'

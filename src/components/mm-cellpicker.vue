@@ -6,12 +6,12 @@
   </div>
 </template>
 <script>
-  import { defineComponent, nextTick } from 'vue'
+  import { defineComponent } from 'vue'
 
-  import MMBlob from '/src/components/mm-blob.vue'
-  import MMMap  from '/src/components/mm-map.vue'
+  import MMBlob from './mm-blob.vue'
+  import MMMap  from './mm-map.vue'
 
-  import cellpickerColor from '/src/constants/cellpicker-color.ts'
+  import cellpickerColor from '../constants/cellpicker-color.ts'
 
   import { CellXY } from 'morromapper-logic'
   

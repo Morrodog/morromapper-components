@@ -21,9 +21,9 @@
   import leafletFullscreenInit from 'leaflet.fullscreen'
   import 'leaflet.fullscreen/Control.FullScreen.css'
 
-  import BOUNDS from '/src/constants/backgroundmap-bounds.ts'
+  import BOUNDS from '../constants/backgroundmap-bounds.ts'
 
-  import CellGrid from '/src/leaflet-classes/cell-grid.ts'
+  import CellGrid from '../leaflet-classes/cell-grid.ts'
 
   import { CellXY } from 'morromapper-logic'
 

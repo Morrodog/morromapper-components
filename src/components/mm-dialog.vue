@@ -13,14 +13,14 @@
 
   Implementation notes:
   1. The component has an invisible dependency on Fontawesome. See https://github.com/NBTSolutions/Leaflet.Dialog/issues/26
-     Fontawesome is included for the whole project in `/src/main.ts`.
+     Fontawesome is included for the whole project in `index.ts`.
   2. The dialog opens itself when it's attached. To prevent this from happening, we only attach it on the first opening.
 -->
 <script lang="ts">
   import 'leaflet-dialog'
   import 'leaflet-dialog/Leaflet.Dialog.css'
 
-  import renderVNodes from '/src/utils/render-vnodes.ts'
+  import renderVNodes from '../utils/render-vnodes.ts'
 
   import { v4 } from 'uuid'
 
