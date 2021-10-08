@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Component library for mapping Morrowind mods",
   "main": "./dist/morromapper-components.es.js",
+  "exports": {
+    ".": "./dist/morromapper-components.es.js",
+    "./style.css": "./dist/style.css"
+  },
   "files": [
     "dist/**"
   ],
