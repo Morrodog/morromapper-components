@@ -1,0 +1,13 @@
+{
+  "heightPixels": 3961,
+  "widthPixels": 3961,
+  "originCellTopBorderY": 2600,
+  "originCellRightBorderX": 1800,
+  "borderWidth": 1,
+  "cellSideLength": 39,
+  "gridBounds": [
+    [3881, 80],
+    [80, 3881]
+  ],
+  "imageURL": "/sandbox/assets/gridmap.png"
+}
