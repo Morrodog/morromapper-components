@@ -1,9 +1,7 @@
-import WorldPoint from 'morromapper-logic'
-import RasterPoint from 'morromapper-logic'
-import RasterBackgroundmapMetadata from 'morromapper-logic'
-import CELL_SIZE from 'morromapper-logic'
+import { WorldPoint, RasterPoint, CELL_SIZE, RasterBackgroundmapMetadata } from 'morromapper-logic'
 
-export function rasterPointFromWorldPoint(worldPoint: WorldPoint, bm: RasterBackgroundmapMetadata) {
+export default function rasterPointFromWorldPoint(worldPoint: WorldPoint, bm: RasterBackgroundmapMetadata) {
+  console.log(worldPoint.x);
   var rasterCellSize = bm.borderWidth + bm.cellSideLength;
   // Should equal the number of pixels from the southeast corner of the origin cell when multiplied by a WorldPoint coordinate.
   var sizeRatio = rasterCellSize/CELL_SIZE;

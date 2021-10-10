@@ -38,6 +38,7 @@
     "leaflet.fullscreen": "https://github.com/Morrodog/leaflet.fullscreen",
     "morromapper-logic": "https://github.com/Morrodog/morromapper-logic",
     "mount-vue-component": "0.10.1",
-    "uuid": "8.3.2"
+    "uuid": "8.3.2",
+    "vue": "^3.0.5"
   }
 }
